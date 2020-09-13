@@ -1,0 +1,21 @@
+[26-Aug-2020 16:54:40 Asia/Bangkok] PHP Fatal error:  Uncaught exception 'DatabaseConnException' with message 'Database Connection Exception: An error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 occurred when executing UPDATE `olala3w_province` SET `price` = '40000' WHERE province_id =.' in /home/webha/domains/hademo.xyz/public_html/includes/class/DatabaseConnect.class.php:56
+Stack trace:
+#0 /home/webha/domains/hademo.xyz/public_html/includes/class/ActiveRecord.class.php(73): DatabaseConnect->query('UPDATE `olala3w...')
+#1 /home/webha/domains/hademo.xyz/public_html/danaweb/modules/shipping_list.php(43): ActiveRecord->update(Array)
+#2 /home/webha/domains/hademo.xyz/public_html/danaweb/index.php(47): include('/home/webha/dom...')
+#3 {main}
+  thrown in /home/webha/domains/hademo.xyz/public_html/includes/class/DatabaseConnect.class.php on line 56
+[26-Aug-2020 16:54:42 Asia/Bangkok] PHP Fatal error:  Uncaught exception 'DatabaseConnException' with message 'Database Connection Exception: An error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 occurred when executing UPDATE `olala3w_province` SET `price` = '40000' WHERE province_id =.' in /home/webha/domains/hademo.xyz/public_html/includes/class/DatabaseConnect.class.php:56
+Stack trace:
+#0 /home/webha/domains/hademo.xyz/public_html/includes/class/ActiveRecord.class.php(73): DatabaseConnect->query('UPDATE `olala3w...')
+#1 /home/webha/domains/hademo.xyz/public_html/danaweb/modules/shipping_list.php(43): ActiveRecord->update(Array)
+#2 /home/webha/domains/hademo.xyz/public_html/danaweb/index.php(47): include('/home/webha/dom...')
+#3 {main}
+  thrown in /home/webha/domains/hademo.xyz/public_html/includes/class/DatabaseConnect.class.php on line 56
+[26-Aug-2020 16:56:03 Asia/Bangkok] PHP Fatal error:  Uncaught exception 'DatabaseConnException' with message 'Database Connection Exception: An error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 occurred when executing UPDATE `olala3w_province` SET `price` = '40000' WHERE province_id =.' in /home/webha/domains/hademo.xyz/public_html/includes/class/DatabaseConnect.class.php:56
+Stack trace:
+#0 /home/webha/domains/hademo.xyz/public_html/includes/class/ActiveRecord.class.php(73): DatabaseConnect->query('UPDATE `olala3w...')
+#1 /home/webha/domains/hademo.xyz/public_html/danaweb/modules/shipping_list.php(43): ActiveRecord->update(Array)
+#2 /home/webha/domains/hademo.xyz/public_html/danaweb/index.php(47): include('/home/webha/dom...')
+#3 {main}
+  thrown in /home/webha/domains/hademo.xyz/public_html/includes/class/DatabaseConnect.class.php on line 56

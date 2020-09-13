@@ -1,0 +1,85 @@
+/**
+ * Owl Carousel v2.2.0
+ * Copyright 2013-2016 David Deutsch
+ * Licensed under MIT (https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE)
+ */
+.item-1 .owl-theme .owl-prev{
+    right:45px;
+    bottom:15px;
+    position: absolute;
+}
+.item-1 .owl-theme .owl-next{
+    right:5px;
+    bottom:15px;
+    position: absolute;
+}
+.service .owl-theme .owl-prev{
+    left:0px;
+    top:38%;
+    position: absolute;
+}
+.service .owl-theme .owl-next{
+    right:0px;
+    top:38%;
+    position: absolute;
+}
+.promotion-new .owl-theme .owl-nav {
+    position: relative !important;
+}
+
+.room .owl-theme .owl-nav {
+
+
+}
+.list-promotion.owl-theme .owl-next{
+    right:0px;
+    top: -30px;
+    position: absolute;
+}
+.list-promotion.owl-theme .owl-prev{
+    left:0px;
+    top: -30px;
+    position: absolute;
+}
+
+
+.owl-theme .owl-prev{
+    left:0px;
+    top: 33%;
+    position: absolute;
+    margin-left: -20px !important;
+}
+.owl-theme .owl-next{
+    right:0px;
+    top: 33%;
+    position: absolute;
+    margin-right: -20px !important;
+}
+.gallery-list .owl-theme .owl-prev{
+    top: 32%;
+}
+.gallery-list .owl-theme .owl-next{
+    top: 32%;
+}
+.show-gallery-article.owl-theme .owl-prev{
+    top: 36%;
+}
+.show-gallery-article.owl-theme .owl-next{
+    top: 36%;
+}
+
+.promotion-new .owl-theme .owl-prev i,
+.promotion-new .owl-theme .owl-next i{
+    color: #fff;
+    font-size: 24px;
+}
+.owl-theme .owl-prev i,
+.owl-theme .owl-next i{
+    color: #fff;
+    font-size: 54px;
+}
+.owl-theme .owl-prev:hover i,
+.owl-theme .owl-next:hover i{
+    color: #FFCB05;
+}
+.owl-theme .owl-dots,.owl-theme .owl-nav{text-align:center;-webkit-tap-highlight-color:transparent}.owl-theme .owl-nav{}.owl-theme .owl-nav [class*=owl-]{color:#FFF;font-size:14px;margin:5px;padding:0px 0px 0px 0px;display:inline-block;cursor:pointer;border-radius:3px}.owl-theme .owl-nav [class*=owl-]:hover{color:#FFF;text-decoration:none}.owl-theme .owl-nav .disabled{opacity:.5;cursor:default}.owl-theme .owl-nav.disabled+.owl-dots{margin-top:10px}.owl-theme .owl-dots .owl-dot{display:inline-block;zoom:1}.owl-theme .owl-dots .owl-dot span{width:10px;height:10px;margin:15px 7px;background:#d1d1d1;display:block;-webkit-backface-visibility:visible;transition:opacity .2s ease;border-radius:30px}.owl-theme .owl-dots .owl-dot.active span,.owl-theme .owl-dots .owl-dot:hover span{background: #e24102}
